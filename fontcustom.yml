@@ -1,0 +1,47 @@
+# --------------------------------------------------------------------------- #
+# Project Info
+#   Defaults shown. Learn more about these options by running
+#   `fontcustom help` or visiting <http://fontcustom.com>.
+# --------------------------------------------------------------------------- #
+font_name: foundation icons
+css_selector: .{{glyph}}
+preprocessor_path: ""
+autowidth: false
+no_hash: true
+force: false
+debug: false
+quiet: false
+
+
+# --------------------------------------------------------------------------- #
+# Input Paths
+# --------------------------------------------------------------------------- #
+
+input:
+  vectors: svgs         # require
+#  templates: app/assets/fonts/fontcustom/templates
+
+
+# --------------------------------------------------------------------------- #
+# Output Paths
+# --------------------------------------------------------------------------- #
+
+output:
+  fonts: .                              # required
+  css: .
+  preview: .
+  #my-custom-template.yml: path/to/template/output
+
+
+# --------------------------------------------------------------------------- #
+# Templates
+#   Included in Font Custom: preview, css, scss, scss-rails
+#   Custom templates should be saved in the INPUT[:templates] directory and
+#   referenced by their baserame.
+# --------------------------------------------------------------------------- #
+
+templates:
+   - css
+   - scss
+   - preview
+  #- my-custom-template.yml
