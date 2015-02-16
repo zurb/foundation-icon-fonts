@@ -1,5 +1,5 @@
 # Quickstart
 
 ```
-bower install zurb/foundation-icon-fonts
+bower install foundation-icon-fonts
 ```
