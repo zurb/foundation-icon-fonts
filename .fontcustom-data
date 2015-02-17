@@ -1,298 +1,1180 @@
 {
+  "checksum": {
+    "previous": "156f17967f41cdbe01bba193e8a8213afdd850e378c3dbc5a6a0e6fd7a5fecd3",
+    "current": "156f17967f41cdbe01bba193e8a8213afdd850e378c3dbc5a6a0e6fd7a5fecd3"
+  },
   "fonts": [
-    "fontcustom_10588e4d0af9f9cd5471c9540658204b.ttf",
-    "fontcustom_10588e4d0af9f9cd5471c9540658204b.woff",
-    "fontcustom_10588e4d0af9f9cd5471c9540658204b.eot",
-    "fontcustom_10588e4d0af9f9cd5471c9540658204b.svg"
+    "./foundation-icons.ttf",
+    "./foundation-icons.svg",
+    "./foundation-icons.woff",
+    "./foundation-icons.eot"
   ],
+  "glyphs": {
+    "fi-address-book": {
+      "codepoint": 61696,
+      "source": "svgs/fi-address-book.svg"
+    },
+    "fi-alert": {
+      "codepoint": 61697,
+      "source": "svgs/fi-alert.svg"
+    },
+    "fi-align-center": {
+      "codepoint": 61698,
+      "source": "svgs/fi-align-center.svg"
+    },
+    "fi-align-justify": {
+      "codepoint": 61699,
+      "source": "svgs/fi-align-justify.svg"
+    },
+    "fi-align-left": {
+      "codepoint": 61700,
+      "source": "svgs/fi-align-left.svg"
+    },
+    "fi-align-right": {
+      "codepoint": 61701,
+      "source": "svgs/fi-align-right.svg"
+    },
+    "fi-anchor": {
+      "codepoint": 61702,
+      "source": "svgs/fi-anchor.svg"
+    },
+    "fi-annotate": {
+      "codepoint": 61703,
+      "source": "svgs/fi-annotate.svg"
+    },
+    "fi-archive": {
+      "codepoint": 61704,
+      "source": "svgs/fi-archive.svg"
+    },
+    "fi-arrow-down": {
+      "codepoint": 61705,
+      "source": "svgs/fi-arrow-down.svg"
+    },
+    "fi-arrow-left": {
+      "codepoint": 61706,
+      "source": "svgs/fi-arrow-left.svg"
+    },
+    "fi-arrow-right": {
+      "codepoint": 61707,
+      "source": "svgs/fi-arrow-right.svg"
+    },
+    "fi-arrow-up": {
+      "codepoint": 61708,
+      "source": "svgs/fi-arrow-up.svg"
+    },
+    "fi-arrows-compress": {
+      "codepoint": 61709,
+      "source": "svgs/fi-arrows-compress.svg"
+    },
+    "fi-arrows-expand": {
+      "codepoint": 61710,
+      "source": "svgs/fi-arrows-expand.svg"
+    },
+    "fi-arrows-in": {
+      "codepoint": 61711,
+      "source": "svgs/fi-arrows-in.svg"
+    },
+    "fi-arrows-out": {
+      "codepoint": 61712,
+      "source": "svgs/fi-arrows-out.svg"
+    },
+    "fi-asl": {
+      "codepoint": 61713,
+      "source": "svgs/fi-asl.svg"
+    },
+    "fi-asterisk": {
+      "codepoint": 61714,
+      "source": "svgs/fi-asterisk.svg"
+    },
+    "fi-at-sign": {
+      "codepoint": 61715,
+      "source": "svgs/fi-at-sign.svg"
+    },
+    "fi-background-color": {
+      "codepoint": 61716,
+      "source": "svgs/fi-background-color.svg"
+    },
+    "fi-battery-empty": {
+      "codepoint": 61717,
+      "source": "svgs/fi-battery-empty.svg"
+    },
+    "fi-battery-full": {
+      "codepoint": 61718,
+      "source": "svgs/fi-battery-full.svg"
+    },
+    "fi-battery-half": {
+      "codepoint": 61719,
+      "source": "svgs/fi-battery-half.svg"
+    },
+    "fi-bitcoin": {
+      "codepoint": 61720,
+      "source": "svgs/fi-bitcoin.svg"
+    },
+    "fi-bitcoin-circle": {
+      "codepoint": 61721,
+      "source": "svgs/fi-bitcoin-circle.svg"
+    },
+    "fi-blind": {
+      "codepoint": 61722,
+      "source": "svgs/fi-blind.svg"
+    },
+    "fi-bluetooth": {
+      "codepoint": 61723,
+      "source": "svgs/fi-bluetooth.svg"
+    },
+    "fi-bold": {
+      "codepoint": 61724,
+      "source": "svgs/fi-bold.svg"
+    },
+    "fi-book": {
+      "codepoint": 61725,
+      "source": "svgs/fi-book.svg"
+    },
+    "fi-book-bookmark": {
+      "codepoint": 61726,
+      "source": "svgs/fi-book-bookmark.svg"
+    },
+    "fi-bookmark": {
+      "codepoint": 61727,
+      "source": "svgs/fi-bookmark.svg"
+    },
+    "fi-braille": {
+      "codepoint": 61728,
+      "source": "svgs/fi-braille.svg"
+    },
+    "fi-burst": {
+      "codepoint": 61729,
+      "source": "svgs/fi-burst.svg"
+    },
+    "fi-burst-new": {
+      "codepoint": 61730,
+      "source": "svgs/fi-burst-new.svg"
+    },
+    "fi-burst-sale": {
+      "codepoint": 61731,
+      "source": "svgs/fi-burst-sale.svg"
+    },
+    "fi-calendar": {
+      "codepoint": 61732,
+      "source": "svgs/fi-calendar.svg"
+    },
+    "fi-camera": {
+      "codepoint": 61733,
+      "source": "svgs/fi-camera.svg"
+    },
+    "fi-check": {
+      "codepoint": 61734,
+      "source": "svgs/fi-check.svg"
+    },
+    "fi-checkbox": {
+      "codepoint": 61735,
+      "source": "svgs/fi-checkbox.svg"
+    },
+    "fi-clipboard": {
+      "codepoint": 61736,
+      "source": "svgs/fi-clipboard.svg"
+    },
+    "fi-clipboard-notes": {
+      "codepoint": 61737,
+      "source": "svgs/fi-clipboard-notes.svg"
+    },
+    "fi-clipboard-pencil": {
+      "codepoint": 61738,
+      "source": "svgs/fi-clipboard-pencil.svg"
+    },
+    "fi-clock": {
+      "codepoint": 61739,
+      "source": "svgs/fi-clock.svg"
+    },
+    "fi-closed-caption": {
+      "codepoint": 61740,
+      "source": "svgs/fi-closed-caption.svg"
+    },
+    "fi-cloud": {
+      "codepoint": 61741,
+      "source": "svgs/fi-cloud.svg"
+    },
+    "fi-comment": {
+      "codepoint": 61742,
+      "source": "svgs/fi-comment.svg"
+    },
+    "fi-comment-minus": {
+      "codepoint": 61743,
+      "source": "svgs/fi-comment-minus.svg"
+    },
+    "fi-comment-quotes": {
+      "codepoint": 61744,
+      "source": "svgs/fi-comment-quotes.svg"
+    },
+    "fi-comment-video": {
+      "codepoint": 61745,
+      "source": "svgs/fi-comment-video.svg"
+    },
+    "fi-comments": {
+      "codepoint": 61746,
+      "source": "svgs/fi-comments.svg"
+    },
+    "fi-compass": {
+      "codepoint": 61747,
+      "source": "svgs/fi-compass.svg"
+    },
+    "fi-contrast": {
+      "codepoint": 61748,
+      "source": "svgs/fi-contrast.svg"
+    },
+    "fi-credit-card": {
+      "codepoint": 61749,
+      "source": "svgs/fi-credit-card.svg"
+    },
+    "fi-crop": {
+      "codepoint": 61750,
+      "source": "svgs/fi-crop.svg"
+    },
+    "fi-crown": {
+      "codepoint": 61751,
+      "source": "svgs/fi-crown.svg"
+    },
+    "fi-css3": {
+      "codepoint": 61752,
+      "source": "svgs/fi-css3.svg"
+    },
+    "fi-database": {
+      "codepoint": 61753,
+      "source": "svgs/fi-database.svg"
+    },
+    "fi-die-five": {
+      "codepoint": 61754,
+      "source": "svgs/fi-die-five.svg"
+    },
+    "fi-die-four": {
+      "codepoint": 61755,
+      "source": "svgs/fi-die-four.svg"
+    },
+    "fi-die-one": {
+      "codepoint": 61756,
+      "source": "svgs/fi-die-one.svg"
+    },
+    "fi-die-six": {
+      "codepoint": 61757,
+      "source": "svgs/fi-die-six.svg"
+    },
+    "fi-die-three": {
+      "codepoint": 61758,
+      "source": "svgs/fi-die-three.svg"
+    },
+    "fi-die-two": {
+      "codepoint": 61759,
+      "source": "svgs/fi-die-two.svg"
+    },
+    "fi-dislike": {
+      "codepoint": 61760,
+      "source": "svgs/fi-dislike.svg"
+    },
+    "fi-dollar": {
+      "codepoint": 61761,
+      "source": "svgs/fi-dollar.svg"
+    },
+    "fi-dollar-bill": {
+      "codepoint": 61762,
+      "source": "svgs/fi-dollar-bill.svg"
+    },
+    "fi-download": {
+      "codepoint": 61763,
+      "source": "svgs/fi-download.svg"
+    },
+    "fi-eject": {
+      "codepoint": 61764,
+      "source": "svgs/fi-eject.svg"
+    },
+    "fi-elevator": {
+      "codepoint": 61765,
+      "source": "svgs/fi-elevator.svg"
+    },
+    "fi-euro": {
+      "codepoint": 61766,
+      "source": "svgs/fi-euro.svg"
+    },
+    "fi-eye": {
+      "codepoint": 61767,
+      "source": "svgs/fi-eye.svg"
+    },
+    "fi-fast-forward": {
+      "codepoint": 61768,
+      "source": "svgs/fi-fast-forward.svg"
+    },
+    "fi-female": {
+      "codepoint": 61769,
+      "source": "svgs/fi-female.svg"
+    },
+    "fi-female-symbol": {
+      "codepoint": 61770,
+      "source": "svgs/fi-female-symbol.svg"
+    },
+    "fi-filter": {
+      "codepoint": 61771,
+      "source": "svgs/fi-filter.svg"
+    },
+    "fi-first-aid": {
+      "codepoint": 61772,
+      "source": "svgs/fi-first-aid.svg"
+    },
+    "fi-flag": {
+      "codepoint": 61773,
+      "source": "svgs/fi-flag.svg"
+    },
+    "fi-folder": {
+      "codepoint": 61774,
+      "source": "svgs/fi-folder.svg"
+    },
+    "fi-folder-add": {
+      "codepoint": 61775,
+      "source": "svgs/fi-folder-add.svg"
+    },
+    "fi-folder-lock": {
+      "codepoint": 61776,
+      "source": "svgs/fi-folder-lock.svg"
+    },
+    "fi-foot": {
+      "codepoint": 61777,
+      "source": "svgs/fi-foot.svg"
+    },
+    "fi-foundation": {
+      "codepoint": 61778,
+      "source": "svgs/fi-foundation.svg"
+    },
+    "fi-graph-bar": {
+      "codepoint": 61779,
+      "source": "svgs/fi-graph-bar.svg"
+    },
+    "fi-graph-horizontal": {
+      "codepoint": 61780,
+      "source": "svgs/fi-graph-horizontal.svg"
+    },
+    "fi-graph-pie": {
+      "codepoint": 61781,
+      "source": "svgs/fi-graph-pie.svg"
+    },
+    "fi-graph-trend": {
+      "codepoint": 61782,
+      "source": "svgs/fi-graph-trend.svg"
+    },
+    "fi-guide-dog": {
+      "codepoint": 61783,
+      "source": "svgs/fi-guide-dog.svg"
+    },
+    "fi-hearing-aid": {
+      "codepoint": 61784,
+      "source": "svgs/fi-hearing-aid.svg"
+    },
+    "fi-heart": {
+      "codepoint": 61785,
+      "source": "svgs/fi-heart.svg"
+    },
+    "fi-home": {
+      "codepoint": 61786,
+      "source": "svgs/fi-home.svg"
+    },
+    "fi-html5": {
+      "codepoint": 61787,
+      "source": "svgs/fi-html5.svg"
+    },
+    "fi-indent-less": {
+      "codepoint": 61788,
+      "source": "svgs/fi-indent-less.svg"
+    },
+    "fi-indent-more": {
+      "codepoint": 61789,
+      "source": "svgs/fi-indent-more.svg"
+    },
+    "fi-info": {
+      "codepoint": 61790,
+      "source": "svgs/fi-info.svg"
+    },
+    "fi-italic": {
+      "codepoint": 61791,
+      "source": "svgs/fi-italic.svg"
+    },
+    "fi-key": {
+      "codepoint": 61792,
+      "source": "svgs/fi-key.svg"
+    },
+    "fi-laptop": {
+      "codepoint": 61793,
+      "source": "svgs/fi-laptop.svg"
+    },
+    "fi-layout": {
+      "codepoint": 61794,
+      "source": "svgs/fi-layout.svg"
+    },
+    "fi-lightbulb": {
+      "codepoint": 61795,
+      "source": "svgs/fi-lightbulb.svg"
+    },
+    "fi-like": {
+      "codepoint": 61796,
+      "source": "svgs/fi-like.svg"
+    },
+    "fi-link": {
+      "codepoint": 61797,
+      "source": "svgs/fi-link.svg"
+    },
+    "fi-list": {
+      "codepoint": 61798,
+      "source": "svgs/fi-list.svg"
+    },
+    "fi-list-bullet": {
+      "codepoint": 61799,
+      "source": "svgs/fi-list-bullet.svg"
+    },
+    "fi-list-number": {
+      "codepoint": 61800,
+      "source": "svgs/fi-list-number.svg"
+    },
+    "fi-list-thumbnails": {
+      "codepoint": 61801,
+      "source": "svgs/fi-list-thumbnails.svg"
+    },
+    "fi-lock": {
+      "codepoint": 61802,
+      "source": "svgs/fi-lock.svg"
+    },
+    "fi-loop": {
+      "codepoint": 61803,
+      "source": "svgs/fi-loop.svg"
+    },
+    "fi-magnifying-glass": {
+      "codepoint": 61804,
+      "source": "svgs/fi-magnifying-glass.svg"
+    },
+    "fi-mail": {
+      "codepoint": 61805,
+      "source": "svgs/fi-mail.svg"
+    },
+    "fi-male": {
+      "codepoint": 61806,
+      "source": "svgs/fi-male.svg"
+    },
+    "fi-male-female": {
+      "codepoint": 61807,
+      "source": "svgs/fi-male-female.svg"
+    },
+    "fi-male-symbol": {
+      "codepoint": 61808,
+      "source": "svgs/fi-male-symbol.svg"
+    },
+    "fi-map": {
+      "codepoint": 61809,
+      "source": "svgs/fi-map.svg"
+    },
+    "fi-marker": {
+      "codepoint": 61810,
+      "source": "svgs/fi-marker.svg"
+    },
+    "fi-megaphone": {
+      "codepoint": 61811,
+      "source": "svgs/fi-megaphone.svg"
+    },
+    "fi-microphone": {
+      "codepoint": 61812,
+      "source": "svgs/fi-microphone.svg"
+    },
+    "fi-minus": {
+      "codepoint": 61813,
+      "source": "svgs/fi-minus.svg"
+    },
+    "fi-minus-circle": {
+      "codepoint": 61814,
+      "source": "svgs/fi-minus-circle.svg"
+    },
+    "fi-mobile": {
+      "codepoint": 61815,
+      "source": "svgs/fi-mobile.svg"
+    },
+    "fi-mobile-signal": {
+      "codepoint": 61816,
+      "source": "svgs/fi-mobile-signal.svg"
+    },
+    "fi-monitor": {
+      "codepoint": 61817,
+      "source": "svgs/fi-monitor.svg"
+    },
+    "fi-mountains": {
+      "codepoint": 61818,
+      "source": "svgs/fi-mountains.svg"
+    },
+    "fi-music": {
+      "codepoint": 61819,
+      "source": "svgs/fi-music.svg"
+    },
+    "fi-next": {
+      "codepoint": 61820,
+      "source": "svgs/fi-next.svg"
+    },
+    "fi-no-dogs": {
+      "codepoint": 61821,
+      "source": "svgs/fi-no-dogs.svg"
+    },
+    "fi-no-smoking": {
+      "codepoint": 61822,
+      "source": "svgs/fi-no-smoking.svg"
+    },
+    "fi-page": {
+      "codepoint": 61823,
+      "source": "svgs/fi-page.svg"
+    },
+    "fi-page-add": {
+      "codepoint": 61824,
+      "source": "svgs/fi-page-add.svg"
+    },
+    "fi-page-copy": {
+      "codepoint": 61825,
+      "source": "svgs/fi-page-copy.svg"
+    },
+    "fi-page-csv": {
+      "codepoint": 61826,
+      "source": "svgs/fi-page-csv.svg"
+    },
+    "fi-page-delete": {
+      "codepoint": 61827,
+      "source": "svgs/fi-page-delete.svg"
+    },
+    "fi-page-doc": {
+      "codepoint": 61828,
+      "source": "svgs/fi-page-doc.svg"
+    },
+    "fi-page-edit": {
+      "codepoint": 61829,
+      "source": "svgs/fi-page-edit.svg"
+    },
+    "fi-page-export": {
+      "codepoint": 61830,
+      "source": "svgs/fi-page-export.svg"
+    },
+    "fi-page-export-csv": {
+      "codepoint": 61831,
+      "source": "svgs/fi-page-export-csv.svg"
+    },
+    "fi-page-export-doc": {
+      "codepoint": 61832,
+      "source": "svgs/fi-page-export-doc.svg"
+    },
+    "fi-page-export-pdf": {
+      "codepoint": 61833,
+      "source": "svgs/fi-page-export-pdf.svg"
+    },
+    "fi-page-filled": {
+      "codepoint": 61834,
+      "source": "svgs/fi-page-filled.svg"
+    },
+    "fi-page-multiple": {
+      "codepoint": 61835,
+      "source": "svgs/fi-page-multiple.svg"
+    },
+    "fi-page-pdf": {
+      "codepoint": 61836,
+      "source": "svgs/fi-page-pdf.svg"
+    },
+    "fi-page-remove": {
+      "codepoint": 61837,
+      "source": "svgs/fi-page-remove.svg"
+    },
+    "fi-page-search": {
+      "codepoint": 61838,
+      "source": "svgs/fi-page-search.svg"
+    },
+    "fi-paint-bucket": {
+      "codepoint": 61839,
+      "source": "svgs/fi-paint-bucket.svg"
+    },
+    "fi-paperclip": {
+      "codepoint": 61840,
+      "source": "svgs/fi-paperclip.svg"
+    },
+    "fi-pause": {
+      "codepoint": 61841,
+      "source": "svgs/fi-pause.svg"
+    },
+    "fi-paw": {
+      "codepoint": 61842,
+      "source": "svgs/fi-paw.svg"
+    },
+    "fi-paypal": {
+      "codepoint": 61843,
+      "source": "svgs/fi-paypal.svg"
+    },
+    "fi-pencil": {
+      "codepoint": 61844,
+      "source": "svgs/fi-pencil.svg"
+    },
+    "fi-photo": {
+      "codepoint": 61845,
+      "source": "svgs/fi-photo.svg"
+    },
+    "fi-play": {
+      "codepoint": 61846,
+      "source": "svgs/fi-play.svg"
+    },
+    "fi-play-circle": {
+      "codepoint": 61847,
+      "source": "svgs/fi-play-circle.svg"
+    },
+    "fi-play-video": {
+      "codepoint": 61848,
+      "source": "svgs/fi-play-video.svg"
+    },
+    "fi-plus": {
+      "codepoint": 61849,
+      "source": "svgs/fi-plus.svg"
+    },
+    "fi-pound": {
+      "codepoint": 61850,
+      "source": "svgs/fi-pound.svg"
+    },
+    "fi-power": {
+      "codepoint": 61851,
+      "source": "svgs/fi-power.svg"
+    },
+    "fi-previous": {
+      "codepoint": 61852,
+      "source": "svgs/fi-previous.svg"
+    },
+    "fi-price-tag": {
+      "codepoint": 61853,
+      "source": "svgs/fi-price-tag.svg"
+    },
+    "fi-pricetag-multiple": {
+      "codepoint": 61854,
+      "source": "svgs/fi-pricetag-multiple.svg"
+    },
+    "fi-print": {
+      "codepoint": 61855,
+      "source": "svgs/fi-print.svg"
+    },
+    "fi-prohibited": {
+      "codepoint": 61856,
+      "source": "svgs/fi-prohibited.svg"
+    },
+    "fi-projection-screen": {
+      "codepoint": 61857,
+      "source": "svgs/fi-projection-screen.svg"
+    },
+    "fi-puzzle": {
+      "codepoint": 61858,
+      "source": "svgs/fi-puzzle.svg"
+    },
+    "fi-quote": {
+      "codepoint": 61859,
+      "source": "svgs/fi-quote.svg"
+    },
+    "fi-record": {
+      "codepoint": 61860,
+      "source": "svgs/fi-record.svg"
+    },
+    "fi-refresh": {
+      "codepoint": 61861,
+      "source": "svgs/fi-refresh.svg"
+    },
+    "fi-results": {
+      "codepoint": 61862,
+      "source": "svgs/fi-results.svg"
+    },
+    "fi-results-demographics": {
+      "codepoint": 61863,
+      "source": "svgs/fi-results-demographics.svg"
+    },
+    "fi-rewind": {
+      "codepoint": 61864,
+      "source": "svgs/fi-rewind.svg"
+    },
+    "fi-rewind-ten": {
+      "codepoint": 61865,
+      "source": "svgs/fi-rewind-ten.svg"
+    },
+    "fi-rss": {
+      "codepoint": 61866,
+      "source": "svgs/fi-rss.svg"
+    },
+    "fi-safety-cone": {
+      "codepoint": 61867,
+      "source": "svgs/fi-safety-cone.svg"
+    },
+    "fi-save": {
+      "codepoint": 61868,
+      "source": "svgs/fi-save.svg"
+    },
+    "fi-share": {
+      "codepoint": 61869,
+      "source": "svgs/fi-share.svg"
+    },
+    "fi-sheriff-badge": {
+      "codepoint": 61870,
+      "source": "svgs/fi-sheriff-badge.svg"
+    },
+    "fi-shield": {
+      "codepoint": 61871,
+      "source": "svgs/fi-shield.svg"
+    },
+    "fi-shopping-bag": {
+      "codepoint": 61872,
+      "source": "svgs/fi-shopping-bag.svg"
+    },
+    "fi-shopping-cart": {
+      "codepoint": 61873,
+      "source": "svgs/fi-shopping-cart.svg"
+    },
+    "fi-shuffle": {
+      "codepoint": 61874,
+      "source": "svgs/fi-shuffle.svg"
+    },
+    "fi-skull": {
+      "codepoint": 61875,
+      "source": "svgs/fi-skull.svg"
+    },
+    "fi-social-500px": {
+      "codepoint": 61876,
+      "source": "svgs/fi-social-500px.svg"
+    },
+    "fi-social-adobe": {
+      "codepoint": 61877,
+      "source": "svgs/fi-social-adobe.svg"
+    },
+    "fi-social-amazon": {
+      "codepoint": 61878,
+      "source": "svgs/fi-social-amazon.svg"
+    },
+    "fi-social-android": {
+      "codepoint": 61879,
+      "source": "svgs/fi-social-android.svg"
+    },
+    "fi-social-apple": {
+      "codepoint": 61880,
+      "source": "svgs/fi-social-apple.svg"
+    },
+    "fi-social-behance": {
+      "codepoint": 61881,
+      "source": "svgs/fi-social-behance.svg"
+    },
+    "fi-social-bing": {
+      "codepoint": 61882,
+      "source": "svgs/fi-social-bing.svg"
+    },
+    "fi-social-blogger": {
+      "codepoint": 61883,
+      "source": "svgs/fi-social-blogger.svg"
+    },
+    "fi-social-delicious": {
+      "codepoint": 61884,
+      "source": "svgs/fi-social-delicious.svg"
+    },
+    "fi-social-designer-news": {
+      "codepoint": 61885,
+      "source": "svgs/fi-social-designer-news.svg"
+    },
+    "fi-social-deviant-art": {
+      "codepoint": 61886,
+      "source": "svgs/fi-social-deviant-art.svg"
+    },
+    "fi-social-digg": {
+      "codepoint": 61887,
+      "source": "svgs/fi-social-digg.svg"
+    },
+    "fi-social-dribbble": {
+      "codepoint": 61888,
+      "source": "svgs/fi-social-dribbble.svg"
+    },
+    "fi-social-drive": {
+      "codepoint": 61889,
+      "source": "svgs/fi-social-drive.svg"
+    },
+    "fi-social-dropbox": {
+      "codepoint": 61890,
+      "source": "svgs/fi-social-dropbox.svg"
+    },
+    "fi-social-evernote": {
+      "codepoint": 61891,
+      "source": "svgs/fi-social-evernote.svg"
+    },
+    "fi-social-facebook": {
+      "codepoint": 61892,
+      "source": "svgs/fi-social-facebook.svg"
+    },
+    "fi-social-flickr": {
+      "codepoint": 61893,
+      "source": "svgs/fi-social-flickr.svg"
+    },
+    "fi-social-forrst": {
+      "codepoint": 61894,
+      "source": "svgs/fi-social-forrst.svg"
+    },
+    "fi-social-foursquare": {
+      "codepoint": 61895,
+      "source": "svgs/fi-social-foursquare.svg"
+    },
+    "fi-social-game-center": {
+      "codepoint": 61896,
+      "source": "svgs/fi-social-game-center.svg"
+    },
+    "fi-social-github": {
+      "codepoint": 61897,
+      "source": "svgs/fi-social-github.svg"
+    },
+    "fi-social-google-plus": {
+      "codepoint": 61898,
+      "source": "svgs/fi-social-google-plus.svg"
+    },
+    "fi-social-hacker-news": {
+      "codepoint": 61899,
+      "source": "svgs/fi-social-hacker-news.svg"
+    },
+    "fi-social-hi5": {
+      "codepoint": 61900,
+      "source": "svgs/fi-social-hi5.svg"
+    },
+    "fi-social-instagram": {
+      "codepoint": 61901,
+      "source": "svgs/fi-social-instagram.svg"
+    },
+    "fi-social-joomla": {
+      "codepoint": 61902,
+      "source": "svgs/fi-social-joomla.svg"
+    },
+    "fi-social-lastfm": {
+      "codepoint": 61903,
+      "source": "svgs/fi-social-lastfm.svg"
+    },
+    "fi-social-linkedin": {
+      "codepoint": 61904,
+      "source": "svgs/fi-social-linkedin.svg"
+    },
+    "fi-social-medium": {
+      "codepoint": 61905,
+      "source": "svgs/fi-social-medium.svg"
+    },
+    "fi-social-myspace": {
+      "codepoint": 61906,
+      "source": "svgs/fi-social-myspace.svg"
+    },
+    "fi-social-orkut": {
+      "codepoint": 61907,
+      "source": "svgs/fi-social-orkut.svg"
+    },
+    "fi-social-path": {
+      "codepoint": 61908,
+      "source": "svgs/fi-social-path.svg"
+    },
+    "fi-social-picasa": {
+      "codepoint": 61909,
+      "source": "svgs/fi-social-picasa.svg"
+    },
+    "fi-social-pinterest": {
+      "codepoint": 61910,
+      "source": "svgs/fi-social-pinterest.svg"
+    },
+    "fi-social-rdio": {
+      "codepoint": 61911,
+      "source": "svgs/fi-social-rdio.svg"
+    },
+    "fi-social-reddit": {
+      "codepoint": 61912,
+      "source": "svgs/fi-social-reddit.svg"
+    },
+    "fi-social-skillshare": {
+      "codepoint": 61913,
+      "source": "svgs/fi-social-skillshare.svg"
+    },
+    "fi-social-skype": {
+      "codepoint": 61914,
+      "source": "svgs/fi-social-skype.svg"
+    },
+    "fi-social-smashing-mag": {
+      "codepoint": 61915,
+      "source": "svgs/fi-social-smashing-mag.svg"
+    },
+    "fi-social-snapchat": {
+      "codepoint": 61916,
+      "source": "svgs/fi-social-snapchat.svg"
+    },
+    "fi-social-soundcloud": {
+      "codepoint": 61917,
+      "source": "svgs/fi-social-soundcloud.svg"
+    },
+    "fi-social-spotify": {
+      "codepoint": 61918,
+      "source": "svgs/fi-social-spotify.svg"
+    },
+    "fi-social-squidoo": {
+      "codepoint": 61919,
+      "source": "svgs/fi-social-squidoo.svg"
+    },
+    "fi-social-stack-overflow": {
+      "codepoint": 61920,
+      "source": "svgs/fi-social-stack-overflow.svg"
+    },
+    "fi-social-steam": {
+      "codepoint": 61921,
+      "source": "svgs/fi-social-steam.svg"
+    },
+    "fi-social-stumbleupon": {
+      "codepoint": 61922,
+      "source": "svgs/fi-social-stumbleupon.svg"
+    },
+    "fi-social-treehouse": {
+      "codepoint": 61923,
+      "source": "svgs/fi-social-treehouse.svg"
+    },
+    "fi-social-tumblr": {
+      "codepoint": 61924,
+      "source": "svgs/fi-social-tumblr.svg"
+    },
+    "fi-social-twitter": {
+      "codepoint": 61925,
+      "source": "svgs/fi-social-twitter.svg"
+    },
+    "fi-social-vimeo": {
+      "codepoint": 61926,
+      "source": "svgs/fi-social-vimeo.svg"
+    },
+    "fi-social-windows": {
+      "codepoint": 61927,
+      "source": "svgs/fi-social-windows.svg"
+    },
+    "fi-social-xbox": {
+      "codepoint": 61928,
+      "source": "svgs/fi-social-xbox.svg"
+    },
+    "fi-social-yahoo": {
+      "codepoint": 61929,
+      "source": "svgs/fi-social-yahoo.svg"
+    },
+    "fi-social-yelp": {
+      "codepoint": 61930,
+      "source": "svgs/fi-social-yelp.svg"
+    },
+    "fi-social-youtube": {
+      "codepoint": 61931,
+      "source": "svgs/fi-social-youtube.svg"
+    },
+    "fi-social-zerply": {
+      "codepoint": 61932,
+      "source": "svgs/fi-social-zerply.svg"
+    },
+    "fi-social-zurb": {
+      "codepoint": 61933,
+      "source": "svgs/fi-social-zurb.svg"
+    },
+    "fi-sound": {
+      "codepoint": 61934,
+      "source": "svgs/fi-sound.svg"
+    },
+    "fi-star": {
+      "codepoint": 61935,
+      "source": "svgs/fi-star.svg"
+    },
+    "fi-stop": {
+      "codepoint": 61936,
+      "source": "svgs/fi-stop.svg"
+    },
+    "fi-strikethrough": {
+      "codepoint": 61937,
+      "source": "svgs/fi-strikethrough.svg"
+    },
+    "fi-subscript": {
+      "codepoint": 61938,
+      "source": "svgs/fi-subscript.svg"
+    },
+    "fi-superscript": {
+      "codepoint": 61939,
+      "source": "svgs/fi-superscript.svg"
+    },
+    "fi-tablet-landscape": {
+      "codepoint": 61940,
+      "source": "svgs/fi-tablet-landscape.svg"
+    },
+    "fi-tablet-portrait": {
+      "codepoint": 61941,
+      "source": "svgs/fi-tablet-portrait.svg"
+    },
+    "fi-target": {
+      "codepoint": 61942,
+      "source": "svgs/fi-target.svg"
+    },
+    "fi-target-two": {
+      "codepoint": 61943,
+      "source": "svgs/fi-target-two.svg"
+    },
+    "fi-telephone": {
+      "codepoint": 61944,
+      "source": "svgs/fi-telephone.svg"
+    },
+    "fi-telephone-accessible": {
+      "codepoint": 61945,
+      "source": "svgs/fi-telephone-accessible.svg"
+    },
+    "fi-text-color": {
+      "codepoint": 61946,
+      "source": "svgs/fi-text-color.svg"
+    },
+    "fi-thumbnails": {
+      "codepoint": 61947,
+      "source": "svgs/fi-thumbnails.svg"
+    },
+    "fi-ticket": {
+      "codepoint": 61948,
+      "source": "svgs/fi-ticket.svg"
+    },
+    "fi-torso": {
+      "codepoint": 61949,
+      "source": "svgs/fi-torso.svg"
+    },
+    "fi-torso-business": {
+      "codepoint": 61950,
+      "source": "svgs/fi-torso-business.svg"
+    },
+    "fi-torso-female": {
+      "codepoint": 61951,
+      "source": "svgs/fi-torso-female.svg"
+    },
+    "fi-torsos": {
+      "codepoint": 61952,
+      "source": "svgs/fi-torsos.svg"
+    },
+    "fi-torsos-all": {
+      "codepoint": 61953,
+      "source": "svgs/fi-torsos-all.svg"
+    },
+    "fi-torsos-all-female": {
+      "codepoint": 61954,
+      "source": "svgs/fi-torsos-all-female.svg"
+    },
+    "fi-torsos-female-male": {
+      "codepoint": 61955,
+      "source": "svgs/fi-torsos-female-male.svg"
+    },
+    "fi-torsos-male-female": {
+      "codepoint": 61956,
+      "source": "svgs/fi-torsos-male-female.svg"
+    },
+    "fi-trash": {
+      "codepoint": 61957,
+      "source": "svgs/fi-trash.svg"
+    },
+    "fi-trees": {
+      "codepoint": 61958,
+      "source": "svgs/fi-trees.svg"
+    },
+    "fi-trophy": {
+      "codepoint": 61959,
+      "source": "svgs/fi-trophy.svg"
+    },
+    "fi-underline": {
+      "codepoint": 61960,
+      "source": "svgs/fi-underline.svg"
+    },
+    "fi-universal-access": {
+      "codepoint": 61961,
+      "source": "svgs/fi-universal-access.svg"
+    },
+    "fi-unlink": {
+      "codepoint": 61962,
+      "source": "svgs/fi-unlink.svg"
+    },
+    "fi-unlock": {
+      "codepoint": 61963,
+      "source": "svgs/fi-unlock.svg"
+    },
+    "fi-upload": {
+      "codepoint": 61964,
+      "source": "svgs/fi-upload.svg"
+    },
+    "fi-upload-cloud": {
+      "codepoint": 61965,
+      "source": "svgs/fi-upload-cloud.svg"
+    },
+    "fi-usb": {
+      "codepoint": 61966,
+      "source": "svgs/fi-usb.svg"
+    },
+    "fi-video": {
+      "codepoint": 61967,
+      "source": "svgs/fi-video.svg"
+    },
+    "fi-volume": {
+      "codepoint": 61968,
+      "source": "svgs/fi-volume.svg"
+    },
+    "fi-volume-none": {
+      "codepoint": 61969,
+      "source": "svgs/fi-volume-none.svg"
+    },
+    "fi-volume-strike": {
+      "codepoint": 61970,
+      "source": "svgs/fi-volume-strike.svg"
+    },
+    "fi-web": {
+      "codepoint": 61971,
+      "source": "svgs/fi-web.svg"
+    },
+    "fi-wheelchair": {
+      "codepoint": 61972,
+      "source": "svgs/fi-wheelchair.svg"
+    },
+    "fi-widget": {
+      "codepoint": 61973,
+      "source": "svgs/fi-widget.svg"
+    },
+    "fi-wrench": {
+      "codepoint": 61974,
+      "source": "svgs/fi-wrench.svg"
+    },
+    "fi-x": {
+      "codepoint": 61975,
+      "source": "svgs/fi-x.svg"
+    },
+    "fi-x-circle": {
+      "codepoint": 61976,
+      "source": "svgs/fi-x-circle.svg"
+    },
+    "fi-yen": {
+      "codepoint": 61977,
+      "source": "svgs/fi-yen.svg"
+    },
+    "fi-zoom-in": {
+      "codepoint": 61978,
+      "source": "svgs/fi-zoom-in.svg"
+    },
+    "fi-zoom-out": {
+      "codepoint": 61979,
+      "source": "svgs/fi-zoom-out.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".{{glyph}}",
+    "debug": false,
+    "font_name": "foundation-icons",
+    "force": false,
+    "input": {
+      "templates": "svgs",
+      "vectors": "svgs"
+    },
+    "no_hash": true,
+    "output": {
+      "css": ".",
+      "fonts": ".",
+      "preview": "."
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "css",
+      "scss",
+      "preview"
+    ]
+  },
   "templates": [
-    "fontcustom.css",
-    "fontcustom-preview.html"
-  ],
-  "file_name": "fontcustom_10588e4d0af9f9cd5471c9540658204b",
-  "glyphs": [
-    "fi-address-book",
-    "fi-alert",
-    "fi-align-center",
-    "fi-align-justify",
-    "fi-align-left",
-    "fi-align-right",
-    "fi-anchor",
-    "fi-annotate",
-    "fi-archive",
-    "fi-arrow-down",
-    "fi-arrow-left",
-    "fi-arrow-right",
-    "fi-arrow-up",
-    "fi-arrows-compress",
-    "fi-arrows-expand",
-    "fi-arrows-in",
-    "fi-arrows-out",
-    "fi-asl",
-    "fi-asterisk",
-    "fi-at-sign",
-    "fi-background-color",
-    "fi-battery-empty",
-    "fi-battery-full",
-    "fi-battery-half",
-    "fi-bitcoin-circle",
-    "fi-bitcoin",
-    "fi-blind",
-    "fi-bluetooth",
-    "fi-bold",
-    "fi-book-bookmark",
-    "fi-book",
-    "fi-bookmark",
-    "fi-braille",
-    "fi-burst-new",
-    "fi-burst-sale",
-    "fi-burst",
-    "fi-calendar",
-    "fi-camera",
-    "fi-check",
-    "fi-checkbox",
-    "fi-clipboard-notes",
-    "fi-clipboard-pencil",
-    "fi-clipboard",
-    "fi-clock",
-    "fi-closed-caption",
-    "fi-cloud",
-    "fi-comment-minus",
-    "fi-comment-quotes",
-    "fi-comment-video",
-    "fi-comment",
-    "fi-comments",
-    "fi-compass",
-    "fi-contrast",
-    "fi-credit-card",
-    "fi-crop",
-    "fi-crown",
-    "fi-css3",
-    "fi-database",
-    "fi-die-five",
-    "fi-die-four",
-    "fi-die-one",
-    "fi-die-six",
-    "fi-die-three",
-    "fi-die-two",
-    "fi-dislike",
-    "fi-dollar-bill",
-    "fi-dollar",
-    "fi-download",
-    "fi-eject",
-    "fi-elevator",
-    "fi-euro",
-    "fi-eye",
-    "fi-fast-forward",
-    "fi-female-symbol",
-    "fi-female",
-    "fi-filter",
-    "fi-first-aid",
-    "fi-flag",
-    "fi-folder-add",
-    "fi-folder-lock",
-    "fi-folder",
-    "fi-foot",
-    "fi-foundation",
-    "fi-graph-bar",
-    "fi-graph-horizontal",
-    "fi-graph-pie",
-    "fi-graph-trend",
-    "fi-guide-dog",
-    "fi-hearing-aid",
-    "fi-heart",
-    "fi-home",
-    "fi-html5",
-    "fi-indent-less",
-    "fi-indent-more",
-    "fi-info",
-    "fi-italic",
-    "fi-key",
-    "fi-laptop",
-    "fi-layout",
-    "fi-lightbulb",
-    "fi-like",
-    "fi-link",
-    "fi-list-bullet",
-    "fi-list-number",
-    "fi-list-thumbnails",
-    "fi-list",
-    "fi-lock",
-    "fi-loop",
-    "fi-magnifying-glass",
-    "fi-mail",
-    "fi-male-female",
-    "fi-male-symbol",
-    "fi-male",
-    "fi-map",
-    "fi-marker",
-    "fi-megaphone",
-    "fi-microphone",
-    "fi-minus-circle",
-    "fi-minus",
-    "fi-mobile-signal",
-    "fi-mobile",
-    "fi-monitor",
-    "fi-mountains",
-    "fi-music",
-    "fi-next",
-    "fi-no-dogs",
-    "fi-no-smoking",
-    "fi-page-add",
-    "fi-page-copy",
-    "fi-page-csv",
-    "fi-page-delete",
-    "fi-page-doc",
-    "fi-page-edit",
-    "fi-page-export-csv",
-    "fi-page-export-doc",
-    "fi-page-export-pdf",
-    "fi-page-export",
-    "fi-page-filled",
-    "fi-page-multiple",
-    "fi-page-pdf",
-    "fi-page-remove",
-    "fi-page-search",
-    "fi-page",
-    "fi-paint-bucket",
-    "fi-paperclip",
-    "fi-pause",
-    "fi-paw",
-    "fi-paypal",
-    "fi-pencil",
-    "fi-photo",
-    "fi-play-circle",
-    "fi-play-video",
-    "fi-play",
-    "fi-plus",
-    "fi-pound",
-    "fi-power",
-    "fi-previous",
-    "fi-price-tag",
-    "fi-pricetag-multiple",
-    "fi-print",
-    "fi-prohibited",
-    "fi-projection-screen",
-    "fi-puzzle",
-    "fi-quote",
-    "fi-record",
-    "fi-refresh",
-    "fi-results-demographics",
-    "fi-results",
-    "fi-rewind-ten",
-    "fi-rewind",
-    "fi-rss",
-    "fi-safety-cone",
-    "fi-save",
-    "fi-share",
-    "fi-sheriff-badge",
-    "fi-shield",
-    "fi-shopping-bag",
-    "fi-shopping-cart",
-    "fi-shuffle",
-    "fi-skull",
-    "fi-social-500px",
-    "fi-social-adobe",
-    "fi-social-amazon",
-    "fi-social-android",
-    "fi-social-apple",
-    "fi-social-behance",
-    "fi-social-bing",
-    "fi-social-blogger",
-    "fi-social-delicious",
-    "fi-social-designer-news",
-    "fi-social-deviant-art",
-    "fi-social-digg",
-    "fi-social-dribbble",
-    "fi-social-drive",
-    "fi-social-dropbox",
-    "fi-social-evernote",
-    "fi-social-facebook",
-    "fi-social-flickr",
-    "fi-social-forrst",
-    "fi-social-foursquare",
-    "fi-social-game-center",
-    "fi-social-github",
-    "fi-social-google-plus",
-    "fi-social-hacker-news",
-    "fi-social-hi5",
-    "fi-social-instagram",
-    "fi-social-joomla",
-    "fi-social-lastfm",
-    "fi-social-linkedin",
-    "fi-social-medium",
-    "fi-social-myspace",
-    "fi-social-orkut",
-    "fi-social-path",
-    "fi-social-picasa",
-    "fi-social-pinterest",
-    "fi-social-rdio",
-    "fi-social-reddit",
-    "fi-social-skillshare",
-    "fi-social-skype",
-    "fi-social-smashing-mag",
-    "fi-social-snapchat",
-    "fi-social-spotify",
-    "fi-social-squidoo",
-    "fi-social-stack-overflow",
-    "fi-social-steam",
-    "fi-social-stumbleupon",
-    "fi-social-treehouse",
-    "fi-social-tumblr",
-    "fi-social-twitter",
-    "fi-social-vimeo",
-    "fi-social-windows",
-    "fi-social-xbox-20",
-    "fi-social-yahoo",
-    "fi-social-yelp",
-    "fi-social-youtube",
-    "fi-social-zerply",
-    "fi-social-zurb",
-    "fi-sound",
-    "fi-star",
-    "fi-stop",
-    "fi-strikethrough",
-    "fi-subscript",
-    "fi-superscript",
-    "fi-tablet-landscape",
-    "fi-tablet-portrait",
-    "fi-target-two",
-    "fi-target",
-    "fi-telephone-accessible",
-    "fi-telephone",
-    "fi-text-color",
-    "fi-thumbnails",
-    "fi-ticket",
-    "fi-torso-business",
-    "fi-torso-female",
-    "fi-torso",
-    "fi-torsos-all-female",
-    "fi-torsos-all",
-    "fi-torsos-female-male",
-    "fi-torsos-male-female",
-    "fi-torsos",
-    "fi-trash",
-    "fi-trees",
-    "fi-trophy",
-    "fi-underline",
-    "fi-universal-access",
-    "fi-unlink",
-    "fi-unlock",
-    "fi-upload-cloud",
-    "fi-upload",
-    "fi-usb",
-    "fi-video",
-    "fi-volume-none",
-    "fi-volume-strike",
-    "fi-volume",
-    "fi-web",
-    "fi-wheelchair",
-    "fi-widget",
-    "fi-wrench",
-    "fi-x-circle",
-    "fi-x",
-    "fi-yen",
-    "fi-zoom-in",
-    "fi-zoom-out"
+    "./foundation-icons.css",
+    "./_foundation-icons.scss",
+    "./index.html"
   ]
 }
