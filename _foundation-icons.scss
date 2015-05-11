@@ -10,6 +10,7 @@
   font-family: "foundation-icons";
   src: url("#{$fi-path}/foundation-icons.eot");
   src: url("#{$fi-path}/foundation-icons.eot?#iefix") format("embedded-opentype"),
+       url("#{$fi-path}/foundation-icons.woff2") format("woff2"),
        url("#{$fi-path}/foundation-icons.woff") format("woff"),
        url("#{$fi-path}/foundation-icons.ttf") format("truetype"),
        url("#{$fi-path}/foundation-icons.svg#fontcustom") format("svg");
