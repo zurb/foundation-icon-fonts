@@ -309,6 +309,7 @@
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   text-decoration: inherit;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .fi-address-book:before { content: "\f100"; }
