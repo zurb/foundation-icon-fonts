@@ -12,5 +12,6 @@
     "url": "https://github.com/zurb/foundation-icon-fonts"
   },
   "author": "Various YetiNauts at Zurb",
-  "ignore": []
+  "ignore": [],
+  "license": "MIT"
 }
