@@ -1,0 +1,16 @@
+{
+  "name": "foundation-icon-fonts",
+  "version": "3.0.0",
+  "description": "Zurb Foundation Icon Fonts",
+  "main": ["foundation-icons.css"],
+  "keywords" : [
+    "zurb",
+    "foundation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/foundation-icon-fonts"
+  },
+  "author": "Various YetiNauts at Zurb",
+  "ignore": []
+}
